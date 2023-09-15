@@ -4,10 +4,11 @@ import mundopc.modelo.Computadora;
 import mundopc.modelo.Monitor;
 import mundopc.modelo.Raton;
 import mundopc.modelo.Teclado;
+import mundopc.servicio.Orden;
 
-public class main {
+public class VentaComputadorasApp {
     public static void main(String[] args) {
-        //Creamos objetos para prueba de funcionamiento.
+        //Creamos objetos tipo Raton, Teclado y Monitor.
         Raton raton = new Raton("Bluetooth","Lenovo");
         Raton raton2 = new Raton("Bluetooth","Asus");
         Raton raton3= new Raton("cable","Tosiba");
@@ -35,6 +36,18 @@ public class main {
         Computadora computadora2 = new Computadora("Computadora AXIS", monitor, teclado, raton2);
         System.out.println(computadora);
         System.out.println(computadora2);
+        System.out.println();
+
+        //Creamos una orden.
+        Orden orden1 = new Orden();
+        orden1.agregarComputadora(computadora);
+        //orden1.mostarOrden();
+        orden1.agregarComputadora(computadora2);
+        orden1.mostarOrden();
+
+        Orden orden2 = new Orden();
+        orden2.agregarComputadora(computadora2);
+        orden2.mostarOrden();
 
 
 
