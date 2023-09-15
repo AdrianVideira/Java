@@ -3,7 +3,7 @@ package mundopc.modelo;
 public class Teclado extends DispositivoEntrada{
     // Atributos.
     private final int idTeclado;
-    private static int contadorTeclados;
+    private static int contadorTeclados; //Es static porque se relaciona con la clase y no con los objetos de la misma.
 
     // Constructores.
     public Teclado (String tipoDeEntrada, String marca){
@@ -16,6 +16,6 @@ public class Teclado extends DispositivoEntrada{
     public String toString() {
         return "Teclado{" +
                 "idTeclado=" + idTeclado +
-                "} " + super.toString(); // mandamos llamar el método toString de la clase padre para mostrarlo en pantalla.
+                "} " + super.toString(); // mandamos llamar el método toString de la clase padre para mostrarlo los atributos del padre.
     }
 }
