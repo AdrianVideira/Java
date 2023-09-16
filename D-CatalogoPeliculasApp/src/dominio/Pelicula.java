@@ -30,12 +30,12 @@ public class Pelicula {
         Pelicula pelicula = (Pelicula) o;
 
         return Objects.equals(nombre, pelicula.nombre);
-    }
+    }// Se debe implementar el método equals y hasCode para que el método indexOF funcione correctamente.
 
     @Override
     public int hashCode() {
         return nombre != null ? nombre.hashCode() : 0;
-    }
+    }// Se debe implementar el método equals y hasCode para que el método indexOF funcione correctamente.
 
     @Override
     public String toString() {
