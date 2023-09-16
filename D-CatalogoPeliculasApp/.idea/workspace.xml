@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23bfa11a-1b03-49b2-9a24-e333d1702db1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-AplicacionVentaOrdenadores/src/mundopc/VentaComputadorasApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../C-AplicacionVentaOrdenadores/src/mundopc/VentaComputadorasApp.java" afterDir="false" />
+    <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dominio/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2VUHVqPg42ZyKXJDIn4OCFIQasz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2VUN7Lki65XTvpEi6eewhfa6PJy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,17 +35,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/VidE/Desktop/DAW/Z-PROYECTOS/01 - JAVA/C-AplicacionVentaOrdenadores"
+    "last_opened_file_path": "C:/Users/VidE/IdeaProjects/MVC_coches"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23bfa11a-1b03-49b2-9a24-e333d1702db1" name="Changes" comment="" />
-      <created>1694883766078</created>
+      <changelist id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="" />
+      <created>1694886538103</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694883766078</updated>
+      <updated>1694886538103</updated>
     </task>
     <servers />
   </component>
