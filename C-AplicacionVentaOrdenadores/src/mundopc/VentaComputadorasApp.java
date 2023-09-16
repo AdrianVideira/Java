@@ -8,48 +8,55 @@ import mundopc.servicio.Orden;
 
 public class VentaComputadorasApp {
     public static void main(String[] args) {
-        //Creamos objetos tipo Raton, Teclado y Monitor.
-        Raton raton = new Raton("Bluetooth","Lenovo");
-        Raton raton2 = new Raton("Bluetooth","Asus");
-        Raton raton3= new Raton("cable","Tosiba");
-        System.out.println(raton);
-        System.out.println(raton2);
-        System.out.println(raton3);
-        System.out.println();
+        // Componentes DELL
+        Monitor monitorDell = new Monitor("DELL", "23");
+        Teclado tecladoDell = new Teclado("cable", "DELL");
+        Raton ratonDell = new Raton("cable", "DELL");
 
-        Teclado teclado = new Teclado("Bluetooth", "Lenovo");
-        Teclado teclado2 = new Teclado("Cable", "Samsung");
-        System.out.println(teclado);
-        System.out.println(teclado2);
-        System.out.println();
+        // Componentes ASUS
+        Monitor monitorAsus = new Monitor("ASUS", "25");
+        Teclado tecladoAsus = new Teclado("Bluetooth","ASUS");
+        Raton ratonAsus = new Raton("Bluetooth", "ASUS");
 
-        Monitor monitor = new Monitor("Asus", "23");
-        Monitor monitor2 = new Monitor("Samsung", "20");
-        Monitor monitor3 = new Monitor("Sony", "19");
-        System.out.println(monitor);
-        System.out.println(monitor2);
-        System.out.println(monitor3);
-        System.out.println();
+        // Componentes MSI
+        Monitor monitorMsi = new Monitor("MSI", "21");
+        Teclado tecladoMsi = new Teclado("Bluetooth","MSI");
+        Raton ratonMsi = new Raton("Bluetooth", "MSI");
+
+        // Componentes MAC
+        Monitor monitorMac = new Monitor("MAC", "23");
+        Teclado tecladoMac = new Teclado("Bluetooth","MAC");
+        Raton ratonMac = new Raton("Bluetooth", "MAC");
+
 
         //Creamos un objeto Computadora.
-        Computadora computadora = new Computadora("Computadora Personal", monitor3, teclado2, raton);
-        Computadora computadora2 = new Computadora("Computadora AXIS", monitor, teclado, raton2);
-        System.out.println(computadora);
-        System.out.println(computadora2);
-        System.out.println();
+        Computadora computadoraDell = new Computadora("Computadora DELL", monitorDell, tecladoDell, ratonDell);
+        Computadora computadoraAsus = new Computadora("Computadora ASUS", monitorAsus, tecladoAsus, ratonAsus);
+        Computadora computadoraMsi = new Computadora("Computadora MSI", monitorMsi, tecladoMsi, ratonMsi);
+        Computadora computadoraMac = new Computadora("Computadora MAC", monitorMac, tecladoMac, ratonMac);
+        //System.out.println(computadoraDell);
+        //System.out.println(computadoraAsus);
+        //System.out.println(computadoraMsi);
+        //System.out.println(computadoraMac);
+        //System.out.println();
 
         //Creamos una orden.
         Orden orden1 = new Orden();
-        orden1.agregarComputadora(computadora);
-        //orden1.mostarOrden();
-        orden1.agregarComputadora(computadora2);
+        orden1.agregarComputadora(computadoraAsus);
+        orden1.agregarComputadora(computadoraDell);
+        orden1.agregarComputadora(computadoraMac);
         orden1.mostarOrden();
+        System.out.println("--------------------------------------------------------------------");
 
         Orden orden2 = new Orden();
-        orden2.agregarComputadora(computadora2);
+        orden2.agregarComputadora(computadoraMsi);
         orden2.mostarOrden();
+        System.out.println("--------------------------------------------------------------------");
 
-
+        Orden orden3 = new Orden();
+        orden3.agregarComputadora(computadoraMac);
+        orden3.agregarComputadora(computadoraAsus);
+        orden3.mostarOrden();
 
 
     }
