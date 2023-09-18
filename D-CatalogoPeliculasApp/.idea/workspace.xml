@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="Creacion: Interface y clase ServicioPeliculasLista.java">
+    <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main).">
+      <change afterPath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servicio/ServicioPeliculasLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/ServicioPeliculasLista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694892611276</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main).">
+      <created>1695058707608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695058707608</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Comienzo proyecto" />
     <MESSAGE value="Creacion: Interface y clase ServicioPeliculasLista.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion: Interface y clase ServicioPeliculasLista.java" />
+    <MESSAGE value="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main)." />
   </component>
 </project>
