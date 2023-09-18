@@ -18,7 +18,7 @@ public class ServicioPeliculasLista implements IServicioPeliculas{
     // Métodos.
     @Override
     public void listarPeliculas() {
-        System.out.println("Listado de Peliculas...");
+        System.out.println("Listado de Peliculas:");
         peliculas.forEach(System.out::println); // Imprimimos cada uno de los objetos agregados en la lista del objeto creado.
 
     }
@@ -42,7 +42,7 @@ public class ServicioPeliculasLista implements IServicioPeliculas{
         }
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         // Creamos objetos de tipo película
         Pelicula peliculaBatman = new Pelicula("Batman Begins");
         Pelicula peliculaSpiderman = new Pelicula("Spiderman2");
@@ -59,10 +59,6 @@ public class ServicioPeliculasLista implements IServicioPeliculas{
         biblioteca.listarPeliculas();
         // Buscamos una pelicula.
         biblioteca.buscarPelicula(new Pelicula("Avengers"));
-
-
-
-
-    }
+    }*/
 
 }
