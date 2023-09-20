@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main).">
-      <change afterPath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" afterDir="false" />
+    <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="Creacion: clae ServicioPeliculasArchivo.java el cual nos permitirá guardar en un archivo.txt de forma permanente las peliculas que vayamos introduciendo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dominio/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominio/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/VidE/Desktop/DAW/Z-PROYECTOS/01 - JAVA/C-AplicacionVentaOrdenadores"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VidE/Desktop/DAW/Z-PROYECTOS/01 - JAVA/C-AplicacionVentaOrdenadores&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.CatalogoPeliculasApp">
     <configuration name="CatalogoPeliculasApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="presentacion.CatalogoPeliculasApp" />
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695058707608</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creacion: clae ServicioPeliculasArchivo.java el cual nos permitirá guardar en un archivo.txt de forma permanente las peliculas que vayamos introduciendo.">
+      <created>1695061532873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695061532873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +129,7 @@
     <MESSAGE value="Comienzo proyecto" />
     <MESSAGE value="Creacion: Interface y clase ServicioPeliculasLista.java" />
     <MESSAGE value="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main)." />
+    <MESSAGE value="Creacion: clae ServicioPeliculasArchivo.java el cual nos permitirá guardar en un archivo.txt de forma permanente las peliculas que vayamos introduciendo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion: clae ServicioPeliculasArchivo.java el cual nos permitirá guardar en un archivo.txt de forma permanente las peliculas que vayamos introduciendo." />
   </component>
 </project>

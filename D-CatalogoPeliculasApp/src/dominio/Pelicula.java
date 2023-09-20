@@ -39,8 +39,7 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "Pelicula{" +
-                "nombre='" + nombre + '\'' +
-                '}';
+        return this.nombre; // Modificamos el método toString para que solo se imprima el nombre de la película
+        // que es lo que necesitamos para guardar en el fichero.
     }
 }
