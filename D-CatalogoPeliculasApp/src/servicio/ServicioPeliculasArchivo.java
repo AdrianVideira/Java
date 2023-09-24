@@ -49,10 +49,13 @@ public class ServicioPeliculasArchivo implements IServicioPeliculas{
                 var pelicula = new Pelicula(linea);
                 System.out.println(pelicula);
                 // Antes de terminar el ciclo volvemos a leer la siguiente linea.
-                entrada.readLine();
+                /**
+                 * autor:
+                 */
+                linea = entrada.readLine();
             } // fin ciclo while
-            // Cerramos el archivo.
-            entrada.close();
+            entrada.close();// Cerramos el archivo.
+
         }catch (Exception e){
             System.out.println("Ocurrio un error al leer el archivo "+ e.getMessage());
         }
