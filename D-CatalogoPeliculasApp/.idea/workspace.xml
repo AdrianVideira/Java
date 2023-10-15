@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="Implementación de los métodos de la clase ServicioPeliculasArchivo.java">
+    <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="Corrección error en método listarPeliculas de la clase ServicioPeliculasArchivo.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695229870279</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Corrección error en método listarPeliculas de la clase ServicioPeliculasArchivo.java">
+      <created>1695573298963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695573298963</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +143,7 @@
     <MESSAGE value="Creacion: paquete presentacion y código necesarío para la ejecución de la aplicación (Main)." />
     <MESSAGE value="Creacion: clae ServicioPeliculasArchivo.java el cual nos permitirá guardar en un archivo.txt de forma permanente las peliculas que vayamos introduciendo." />
     <MESSAGE value="Implementación de los métodos de la clase ServicioPeliculasArchivo.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementación de los métodos de la clase ServicioPeliculasArchivo.java" />
+    <MESSAGE value="Corrección error en método listarPeliculas de la clase ServicioPeliculasArchivo.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrección error en método listarPeliculas de la clase ServicioPeliculasArchivo.java" />
   </component>
 </project>
