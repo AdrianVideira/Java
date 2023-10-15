@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2878753-30b2-4a46-8438-e74ec4c994a7" name="Changes" comment="Corrección error en método listarPeliculas de la clase ServicioPeliculasArchivo.java">
+      <change afterPath="$PROJECT_DIR$/src/presentacion/CatalogoPeliculasApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dominio/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominio/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicio/IServicioPeliculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/IServicioPeliculas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/ServicioPeliculasArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicio/ServicioPeliculasLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/ServicioPeliculasLista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
